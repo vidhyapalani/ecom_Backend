@@ -1,0 +1,35 @@
+{
+  "name": "ecom_app_api",
+  "version": "1.0.0",
+  "description": "First, ensure you have the following installed:",
+  "main": "index.js",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/mongodb": "^3.3.16",
+    "@types/multer": "^1.4.2",
+    "@types/node": "^13.7.7",
+    "@types/request": "^2.48.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect=5858 -r ts-node/register ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "  "
+  },
+  "author": "",
+  "license": "ISC"
+}
